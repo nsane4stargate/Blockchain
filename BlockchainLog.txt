@@ -1,0 +1,519 @@
+////////////////////////////////////////////////////////////////////////////PROCESS ZERO///////////////////////////////////////////////////////////////////
+
+"C:\Program Files\Java\jdk1.8.0_201\bin\java.exe" "-javaagent:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2019.1.1\lib\idea_rt.jar=64521:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2019.1.1\bin" -Dfile.encoding=UTF-8 -classpath "C:\Program Files\Java\jdk1.8.0_201\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_201\jre\lib\deploy.jar;C:\Program Files\Java\jdk1.8.0_201\jre\lib\ext\access-bridge-64.jar;C:\Program Files\Java\jdk1.8.0_201\jre\lib\ext\cldrdata.jar;C:\Program Files\Java\jdk1.8.0_201\jre\lib\ext\dnsns.jar;C:\Program Files\Java\jdk1.8.0_201\jre\lib\ext\jaccess.jar;C:\Program Files\Java\jdk1.8.0_201\jre\lib\ext\jfxrt.jar;C:\Program Files\Java\jdk1.8.0_201\jre\lib\ext\localedata.jar;C:\Program Files\Java\jdk1.8.0_201\jre\lib\ext\nashorn.jar;C:\Program Files\Java\jdk1.8.0_201\jre\lib\ext\sunec.jar;C:\Program Files\Java\jdk1.8.0_201\jre\lib\ext\sunjce_provider.jar;C:\Program Files\Java\jdk1.8.0_201\jre\lib\ext\sunmscapi.jar;C:\Program Files\Java\jdk1.8.0_201\jre\lib\ext\sunpkcs11.jar;C:\Program Files\Java\jdk1.8.0_201\jre\lib\ext\zipfs.jar;C:\Program Files\Java\jdk1.8.0_201\jre\lib\javaws.jar;C:\Program Files\Java\jdk1.8.0_201\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_201\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_201\jre\lib\jfxswt.jar;C:\Program Files\Java\jdk1.8.0_201\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_201\jre\lib\management-agent.jar;C:\Program Files\Java\jdk1.8.0_201\jre\lib\plugin.jar;C:\Program Files\Java\jdk1.8.0_201\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_201\jre\lib\rt.jar;C:\Users\nsane\Documents\Spring '19\CSC_435 Distributed Computing\Lea's Blockchain\out\production\Lea's Blockchain" Blockchain 0
+Blockchain program running 
+Current process id in use : 0
+Starting Public Key Server input thread using 4710
+UnverifiedBlockServer for process: 0 up, listening at port: 4820
+
+BlockchainServer listening at port: 4930 process_id: 0
+
+Running the UnverifiedBlockConsumer class. 
+
+Got key: Port 4710 using process_ id 2 with Public key: MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCflLCDxDm7C2g0bE1EsJoFL/G+JP+lL+RjAf4Lnd2kQfyb1cWVIHE7zyl0J1pK78sZDtNtqg8hds3tmq+dO9g6IbA2s0rK+fbrZVfP5sS2dTExPrJbxIsbFIuEgD/l1MkuupIp/zUwKdFUg0EPrGk5wiNZyUVmNtTlUSlEbiMqJwIDAQAB
+
+In PublicKeyWorker, storePublicKeyandPID() method 
+
+Consumer got unverified: 
+<blockRecord>    
+		<ABlockID>701e9f20-bf08-46e2-b8eb-594beab7ef8a</ABlockID>    <ACreatingProcess>Process3</ACreatingProcess>    
+		<ASHA256String>SHA string goes here...</ASHA256String>    <ASignedSHA256>Signed SHA string goes here...</ASignedSHA256>    
+		<AVerificationProcessID>To be set later...</AVerificationProcessID>    <DIAG>Chickenpox</DIAG>    <DOB>1996.03.07</DOB>    
+		<FNAME>Dummy</FNAME>    <LNAME>Block</LNAME>    <RX>aspirin</RX>    <SSN>123-45-6789</SSN>    <TREAT>BedRest</TREAT>
+</blockRecord>
+
+UnverifiedBlockServer for process: 0 up, listening at port: 4930
+BlockchainServer connected sucessfully!!!
+
+UnverifiedBlockServer for process: 0 up, listening at port: 4931
+UnverifiedBlockServer for process: 0 up, listening at port: 4932
+BlockchainServer connected sucessfully!!!
+
+Consumer got unverified: 
+<blockRecord>    
+		<ABlockID>26eea7d0-dbb1-40c8-923c-b0f6297f3f46</ABlockID>    <ACreatingProcess>Process2</ACreatingProcess>    
+		<ASHA256String>SHA string goes here...</ASHA256String>    <ASignedSHA256>Signed SHA string goes here...</ASignedSHA256>    
+		<AVerificationProcessID>To be set later...</AVerificationProcessID>    <DIAG>Arthritis</DIAG>    <DOB>1880.06.27</DOB>    
+		<FNAME>Helen</FNAME>    <LNAME>Keller</LNAME>    <RX>Aspirin</RX>    <SSN>666-45-6789</SSN>    <TREAT>WarmCloths</TREAT>
+</blockRecord>
+
+BlockChain List:
+
+<BlockLedger>
+<blockRecord>
+    <ABlockID>701e9f20-bf08-46e2-b8eb-594beab7ef8a</ABlockID>
+    <ACreatingProcess>Process3</ACreatingProcess>
+    <ASHA256String>SHA string goes here...</ASHA256String>
+    <ASignedSHA256>Signed SHA string goes here...</ASignedSHA256>
+    <AVerificationProcessID>0</AVerificationProcessID>
+    <DIAG>Chickenpox</DIAG>
+    <DOB>1996.03.07</DOB>
+    <FNAME>Dummy</FNAME>
+    <LNAME>Block</LNAME>
+    <RX>aspirin</RX>
+    <SSN>123-45-6789</SSN>
+    <TREAT>BedRest</TREAT>
+</blockRecord>
+
+<blockRecord>
+    <ABlockID>26eea7d0-dbb1-40c8-923c-b0f6297f3f46</ABlockID>
+    <ACreatingProcess>Process2</ACreatingProcess>
+    <ASHA256String>SHA string goes here...</ASHA256String>
+    <ASignedSHA256>Signed SHA string goes here...</ASignedSHA256>
+    <AVerificationProcessID>1</AVerificationProcessID>
+    <DIAG>Arthritis</DIAG>
+    <DOB>1880.06.27</DOB>
+    <FNAME>Helen</FNAME>
+    <LNAME>Keller</LNAME>
+    <previousHash>701e9f20-bf08-46e2-b8eb-594beab7ef8a</previousHash>
+    <RX>Aspirin</RX>
+    <SSN>666-45-6789</SSN>
+    <TREAT>WarmCloths</TREAT>
+</blockRecord>
+</BlockLedger>
+
+Consumer got unverified: 
+<blockRecord>    
+		<ABlockID>701e9f20-bf08-46e2-b8eb-594beab7ef8a</ABlockID>    <ACreatingProcess>Process3</ACreatingProcess>    
+		<ASHA256String>SHA string goes here...</ASHA256String>    <ASignedSHA256>Signed SHA string goes here...</ASignedSHA256>    
+		<AVerificationProcessID>To be set later...</AVerificationProcessID>    <DIAG>Chickenpox</DIAG>    <DOB>1996.03.07</DOB>    
+		<FNAME>Dummy</FNAME>    <LNAME>Block</LNAME>    <RX>aspirin</RX>    <SSN>123-45-6789</SSN>    <TREAT>BedRest</TREAT></blockRecord>
+
+Consumer got unverified: 
+<blockRecord>    
+		<ABlockID>8d033e8e-435f-4af4-a3fc-d8bb12632655</ABlockID>    <ACreatingProcess>Process2</ACreatingProcess>    
+		<ASHA256String>SHA string goes here...</ASHA256String>    <ASignedSHA256>Signed SHA string goes here...</ASignedSHA256>    
+		<AVerificationProcessID>To be set later...</AVerificationProcessID>    <DIAG>AddisonsDisease</DIAG>    <DOB>1917.05.29</DOB>    
+		<FNAME>John</FNAME>    <LNAME>Kennedy</LNAME>    <RX>Steroids</RX>    <SSN>333-45-6999</SSN>    <TREAT>DrugTherapy</TREAT>
+</blockRecord>
+
+BlockchainServer connected sucessfully!!!
+
+UnverifiedBlockServer for process: 0 up, listening at port: 4930
+UnverifiedBlockServer for process: 0 up, listening at port: 4931
+UnverifiedBlockServer for process: 0 up, listening at port: 4932
+Consumer got unverified: 
+<blockRecord>    
+		<ABlockID>c2830877-905c-4a1b-aa9e-3a50fc02ecc5</ABlockID>    <ACreatingProcess>Process2</ACreatingProcess>    
+		<ASHA256String>SHA string goes here...</ASHA256String>    <ASignedSHA256>Signed SHA string goes here...</ASignedSHA256>    
+		<AVerificationProcessID>To be set later...</AVerificationProcessID>    <DIAG>SoreKnees</DIAG>    <DOB>1914.11.25</DOB>    
+		<FNAME>Joe</FNAME>    <LNAME>DiMaggio</LNAME>    <RX>Aspirin</RX>    <SSN>111-22-3333</SSN>    <TREAT>RestFromSports</TREAT>
+</blockRecord>
+
+BlockchainServer connected sucessfully!!!
+
+BlockChain List:
+
+<BlockLedger>
+<blockRecord>
+    <ABlockID>701e9f20-bf08-46e2-b8eb-594beab7ef8a</ABlockID>
+    <ACreatingProcess>Process3</ACreatingProcess>
+    <ASHA256String>SHA string goes here...</ASHA256String>
+    <ASignedSHA256>Signed SHA string goes here...</ASignedSHA256>
+    <AVerificationProcessID>0</AVerificationProcessID>
+    <DIAG>Chickenpox</DIAG>
+    <DOB>1996.03.07</DOB>
+    <FNAME>Dummy</FNAME>
+    <LNAME>Block</LNAME>
+    <RX>aspirin</RX>
+    <SSN>123-45-6789</SSN>
+    <TREAT>BedRest</TREAT>
+</blockRecord>
+
+<blockRecord>
+    <ABlockID>26eea7d0-dbb1-40c8-923c-b0f6297f3f46</ABlockID>
+    <ACreatingProcess>Process2</ACreatingProcess>
+    <ASHA256String>SHA string goes here...</ASHA256String>
+    <ASignedSHA256>Signed SHA string goes here...</ASignedSHA256>
+    <AVerificationProcessID>1</AVerificationProcessID>
+    <DIAG>Arthritis</DIAG>
+    <DOB>1880.06.27</DOB>
+    <FNAME>Helen</FNAME>
+    <LNAME>Keller</LNAME>
+    <previousHash>701e9f20-bf08-46e2-b8eb-594beab7ef8a</previousHash>
+    <RX>Aspirin</RX>
+    <SSN>666-45-6789</SSN>
+    <TREAT>WarmCloths</TREAT>
+</blockRecord>
+
+<blockRecord>
+    <ABlockID>8d033e8e-435f-4af4-a3fc-d8bb12632655</ABlockID>
+    <ACreatingProcess>Process2</ACreatingProcess>
+    <ASHA256String>SHA string goes here...</ASHA256String>
+    <ASignedSHA256>Signed SHA string goes here...</ASignedSHA256>
+    <AVerificationProcessID>0</AVerificationProcessID>
+    <DIAG>AddisonsDisease</DIAG>
+    <DOB>1917.05.29</DOB>
+    <FNAME>John</FNAME>
+    <LNAME>Kennedy</LNAME>
+    <previousHash>26eea7d0-dbb1-40c8-923c-b0f6297f3f46</previousHash>
+    <RX>Steroids</RX>
+    <SSN>333-45-6999</SSN>
+    <TREAT>DrugTherapy</TREAT>
+</blockRecord>
+
+<blockRecord>
+    <ABlockID>c2830877-905c-4a1b-aa9e-3a50fc02ecc5</ABlockID>
+    <ACreatingProcess>Process2</ACreatingProcess>
+    <ASHA256String>SHA string goes here...</ASHA256String>
+    <ASignedSHA256>Signed SHA string goes here...</ASignedSHA256>
+    <AVerificationProcessID>1</AVerificationProcessID>
+    <DIAG>SoreKnees</DIAG>
+    <DOB>1914.11.25</DOB>
+    <FNAME>Joe</FNAME>
+    <LNAME>DiMaggio</LNAME>
+    <previousHash>8d033e8e-435f-4af4-a3fc-d8bb12632655</previousHash>
+    <RX>Aspirin</RX>
+    <SSN>111-22-3333</SSN>
+    <TREAT>RestFromSports</TREAT>
+</blockRecord>
+</BlockLedger>
+
+Consumer got unverified: 
+<blockRecord>    
+		<ABlockID>ee43faeb-2392-42c8-9d36-7d3176a803c3</ABlockID>    <ACreatingProcess>Process2</ACreatingProcess>    
+		<ASHA256String>SHA string goes here...</ASHA256String>    <ASignedSHA256>Signed SHA string goes here...</ASignedSHA256>    
+		<AVerificationProcessID>To be set later...</AVerificationProcessID>    <DIAG>GreviousWound</DIAG>    <DOB>1809.02.12</DOB>    
+		<FNAME>Abraham</FNAME>    <LNAME>Lincoln</LNAME>    <RX>Whiskey</RX>    <SSN>444-45-6888</SSN>    <TREAT>Surgery</TREAT>
+</blockRecord>
+
+BlockchainServer connected sucessfully!!!
+
+BlockChain List:
+
+<BlockLedger>
+<blockRecord>
+    <ABlockID>701e9f20-bf08-46e2-b8eb-594beab7ef8a</ABlockID>
+    <ACreatingProcess>Process3</ACreatingProcess>
+    <ASHA256String>SHA string goes here...</ASHA256String>
+    <ASignedSHA256>Signed SHA string goes here...</ASignedSHA256>
+    <AVerificationProcessID>0</AVerificationProcessID>
+    <DIAG>Chickenpox</DIAG>
+    <DOB>1996.03.07</DOB>
+    <FNAME>Dummy</FNAME>
+    <LNAME>Block</LNAME>
+    <RX>aspirin</RX>
+    <SSN>123-45-6789</SSN>
+    <TREAT>BedRest</TREAT>
+</blockRecord>
+
+<blockRecord>
+    <ABlockID>26eea7d0-dbb1-40c8-923c-b0f6297f3f46</ABlockID>
+    <ACreatingProcess>Process2</ACreatingProcess>
+    <ASHA256String>SHA string goes here...</ASHA256String>
+    <ASignedSHA256>Signed SHA string goes here...</ASignedSHA256>
+    <AVerificationProcessID>1</AVerificationProcessID>
+    <DIAG>Arthritis</DIAG>
+    <DOB>1880.06.27</DOB>
+    <FNAME>Helen</FNAME>
+    <LNAME>Keller</LNAME>
+    <previousHash>701e9f20-bf08-46e2-b8eb-594beab7ef8a</previousHash>
+    <RX>Aspirin</RX>
+    <SSN>666-45-6789</SSN>
+    <TREAT>WarmCloths</TREAT>
+</blockRecord>
+
+<blockRecord>
+    <ABlockID>8d033e8e-435f-4af4-a3fc-d8bb12632655</ABlockID>
+    <ACreatingProcess>Process2</ACreatingProcess>
+    <ASHA256String>SHA string goes here...</ASHA256String>
+    <ASignedSHA256>Signed SHA string goes here...</ASignedSHA256>
+    <AVerificationProcessID>0</AVerificationProcessID>
+    <DIAG>AddisonsDisease</DIAG>
+    <DOB>1917.05.29</DOB>
+    <FNAME>John</FNAME>
+    <LNAME>Kennedy</LNAME>
+    <previousHash>26eea7d0-dbb1-40c8-923c-b0f6297f3f46</previousHash>
+    <RX>Steroids</RX>
+    <SSN>333-45-6999</SSN>
+    <TREAT>DrugTherapy</TREAT>
+</blockRecord>
+
+<blockRecord>
+    <ABlockID>c2830877-905c-4a1b-aa9e-3a50fc02ecc5</ABlockID>
+    <ACreatingProcess>Process2</ACreatingProcess>
+    <ASHA256String>SHA string goes here...</ASHA256String>
+    <ASignedSHA256>Signed SHA string goes here...</ASignedSHA256>
+    <AVerificationProcessID>1</AVerificationProcessID>
+    <DIAG>SoreKnees</DIAG>
+    <DOB>1914.11.25</DOB>
+    <FNAME>Joe</FNAME>
+    <LNAME>DiMaggio</LNAME>
+    <previousHash>8d033e8e-435f-4af4-a3fc-d8bb12632655</previousHash>
+    <RX>Aspirin</RX>
+    <SSN>111-22-3333</SSN>
+    <TREAT>RestFromSports</TREAT>
+</blockRecord>
+
+<blockRecord>
+    <ABlockID>ee43faeb-2392-42c8-9d36-7d3176a803c3</ABlockID>
+    <ACreatingProcess>Process2</ACreatingProcess>
+    <ASHA256String>SHA string goes here...</ASHA256String>
+    <ASignedSHA256>Signed SHA string goes here...</ASignedSHA256>
+    <AVerificationProcessID>1</AVerificationProcessID>
+    <DIAG>GreviousWound</DIAG>
+    <DOB>1809.02.12</DOB>
+    <FNAME>Abraham</FNAME>
+    <LNAME>Lincoln</LNAME>
+    <previousHash>c2830877-905c-4a1b-aa9e-3a50fc02ecc5</previousHash>
+    <RX>Whiskey</RX>
+    <SSN>444-45-6888</SSN>
+    <TREAT>Surgery</TREAT>
+</blockRecord>
+</BlockLedger>
+
+
+Process finished with exit code -1
+ 
+
+///////////////////////////////////////////////////////////////////////PROCESS ONE////////////////////////////////////////////////////////////////////////
+
+"C:\Program Files\Java\jdk1.8.0_201\bin\java.exe" "-javaagent:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2019.1.1\lib\idea_rt.jar=64527:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2019.1.1\bin" -Dfile.encoding=UTF-8 -classpath "C:\Program Files\Java\jdk1.8.0_201\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_201\jre\lib\deploy.jar;C:\Program Files\Java\jdk1.8.0_201\jre\lib\ext\access-bridge-64.jar;C:\Program Files\Java\jdk1.8.0_201\jre\lib\ext\cldrdata.jar;C:\Program Files\Java\jdk1.8.0_201\jre\lib\ext\dnsns.jar;C:\Program Files\Java\jdk1.8.0_201\jre\lib\ext\jaccess.jar;C:\Program Files\Java\jdk1.8.0_201\jre\lib\ext\jfxrt.jar;C:\Program Files\Java\jdk1.8.0_201\jre\lib\ext\localedata.jar;C:\Program Files\Java\jdk1.8.0_201\jre\lib\ext\nashorn.jar;C:\Program Files\Java\jdk1.8.0_201\jre\lib\ext\sunec.jar;C:\Program Files\Java\jdk1.8.0_201\jre\lib\ext\sunjce_provider.jar;C:\Program Files\Java\jdk1.8.0_201\jre\lib\ext\sunmscapi.jar;C:\Program Files\Java\jdk1.8.0_201\jre\lib\ext\sunpkcs11.jar;C:\Program Files\Java\jdk1.8.0_201\jre\lib\ext\zipfs.jar;C:\Program Files\Java\jdk1.8.0_201\jre\lib\javaws.jar;C:\Program Files\Java\jdk1.8.0_201\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_201\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_201\jre\lib\jfxswt.jar;C:\Program Files\Java\jdk1.8.0_201\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_201\jre\lib\management-agent.jar;C:\Program Files\Java\jdk1.8.0_201\jre\lib\plugin.jar;C:\Program Files\Java\jdk1.8.0_201\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_201\jre\lib\rt.jar;C:\Users\nsane\Documents\Spring '19\CSC_435 Distributed Computing\Lea's Blockchain\out\production\Lea's Blockchain" Blockchain 1
+Blockchain program running 
+Current process id in use : 1
+Starting Public Key Server input thread using 4711
+UnverifiedBlockServer for process: 1 up, listening at port: 4821
+
+BlockchainServer listening at port: 4931 process_id: 1
+
+Running the UnverifiedBlockConsumer class. 
+
+Got key: Port 4711 using process_ id 2 with 
+Public key: MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCflLCDxDm7C2g0bE1EsJoFL/G+JP+lL+RjAf4Lnd2kQfyb1cWVIHE7zyl0J1pK78sZDtNtqg8hds3tmq+dO9g6IbA2s0rK+fbrZVfP5sS2dTExPrJbxIsbFIuEgD/l1MkuupIp/zUwKdFUg0EPrGk5wiNZyUVmNtTlUSlEbiMqJwIDAQAB
+
+In PublicKeyWorker, storePublicKeyandPID() method 
+
+Consumer got unverified: 
+<blockRecord>    
+		<ABlockID>701e9f20-bf08-46e2-b8eb-594beab7ef8a</ABlockID>    <ACreatingProcess>Process3</ACreatingProcess>    
+		<ASHA256String>SHA string goes here...</ASHA256String>    <ASignedSHA256>Signed SHA string goes here...</ASignedSHA256>  
+		<AVerificationProcessID>To be set later...</AVerificationProcessID>    <DIAG>Chickenpox</DIAG>    <DOB>1996.03.07</DOB>    
+		<FNAME>Dummy</FNAME>    <LNAME>Block</LNAME>    <RX>aspirin</RX>    <SSN>123-45-6789</SSN>    <TREAT>BedRest</TREAT>
+</blockRecord>
+
+BlockchainServer connected sucessfully!!!
+
+BlockChain List:
+
+<BlockLedger>
+<blockRecord>
+    <ABlockID>701e9f20-bf08-46e2-b8eb-594beab7ef8a</ABlockID>
+    <ACreatingProcess>Process3</ACreatingProcess>
+    <ASHA256String>SHA string goes here...</ASHA256String>
+    <ASignedSHA256>Signed SHA string goes here...</ASignedSHA256>
+    <AVerificationProcessID>0</AVerificationProcessID>
+    <DIAG>Chickenpox</DIAG>
+    <DOB>1996.03.07</DOB>
+    <FNAME>Dummy</FNAME>
+    <LNAME>Block</LNAME>
+    <RX>aspirin</RX>
+    <SSN>123-45-6789</SSN>
+    <TREAT>BedRest</TREAT>
+</blockRecord>
+</BlockLedger>
+
+Consumer got unverified: 
+<blockRecord>    
+		<ABlockID>26eea7d0-dbb1-40c8-923c-b0f6297f3f46</ABlockID>    <ACreatingProcess>Process2</ACreatingProcess>    
+		<ASHA256String>SHA string goes here...</ASHA256String>    <ASignedSHA256>Signed SHA string goes here...</ASignedSHA256>    
+		<AVerificationProcessID>To be set later...</AVerificationProcessID>    <DIAG>Arthritis</DIAG>    <DOB>1880.06.27</DOB>    
+		<FNAME>Helen</FNAME>    <LNAME>Keller</LNAME>    <RX>Aspirin</RX>    <SSN>666-45-6789</SSN>    <TREAT>WarmCloths</TREAT>
+</blockRecord>
+
+UnverifiedBlockServer for process: 1 up, listening at port: 4930
+UnverifiedBlockServer for process: 1 up, listening at port: 4931
+BlockchainServer connected sucessfully!!!
+
+UnverifiedBlockServer for process: 1 up, listening at port: 4932
+Consumer got unverified: 
+<blockRecord>    
+		<ABlockID>701e9f20-bf08-46e2-b8eb-594beab7ef8a</ABlockID>    <ACreatingProcess>Process3</ACreatingProcess>    
+		<ASHA256String>SHA string goes here...</ASHA256String>    <ASignedSHA256>Signed SHA string goes here...</ASignedSHA256>    
+		<AVerificationProcessID>To be set later...</AVerificationProcessID>    <DIAG>Chickenpox</DIAG>    <DOB>1996.03.07</DOB>    
+		<FNAME>Dummy</FNAME>    <LNAME>Block</LNAME>    <RX>aspirin</RX>    <SSN>123-45-6789</SSN>    <TREAT>BedRest</TREAT>
+</blockRecord>
+
+BlockchainServer connected sucessfully!!!
+
+BlockChain List:
+
+<BlockLedger>
+<blockRecord>
+    <ABlockID>701e9f20-bf08-46e2-b8eb-594beab7ef8a</ABlockID>
+    <ACreatingProcess>Process3</ACreatingProcess>
+    <ASHA256String>SHA string goes here...</ASHA256String>
+    <ASignedSHA256>Signed SHA string goes here...</ASignedSHA256>
+    <AVerificationProcessID>0</AVerificationProcessID>
+    <DIAG>Chickenpox</DIAG>
+    <DOB>1996.03.07</DOB>
+    <FNAME>Dummy</FNAME>
+    <LNAME>Block</LNAME>
+    <RX>aspirin</RX>
+    <SSN>123-45-6789</SSN>
+    <TREAT>BedRest</TREAT>
+</blockRecord>
+
+<blockRecord>
+    <ABlockID>26eea7d0-dbb1-40c8-923c-b0f6297f3f46</ABlockID>
+    <ACreatingProcess>Process2</ACreatingProcess>
+    <ASHA256String>SHA string goes here...</ASHA256String>
+    <ASignedSHA256>Signed SHA string goes here...</ASignedSHA256>
+    <AVerificationProcessID>1</AVerificationProcessID>
+    <DIAG>Arthritis</DIAG>
+    <DOB>1880.06.27</DOB>
+    <FNAME>Helen</FNAME>
+    <LNAME>Keller</LNAME>
+    <previousHash>701e9f20-bf08-46e2-b8eb-594beab7ef8a</previousHash>
+    <RX>Aspirin</RX>
+    <SSN>666-45-6789</SSN>
+    <TREAT>WarmCloths</TREAT>
+</blockRecord>
+
+<blockRecord>
+    <ABlockID>8d033e8e-435f-4af4-a3fc-d8bb12632655</ABlockID>
+    <ACreatingProcess>Process2</ACreatingProcess>
+    <ASHA256String>SHA string goes here...</ASHA256String>
+    <ASignedSHA256>Signed SHA string goes here...</ASignedSHA256>
+    <AVerificationProcessID>0</AVerificationProcessID>
+    <DIAG>AddisonsDisease</DIAG>
+    <DOB>1917.05.29</DOB>
+    <FNAME>John</FNAME>
+    <LNAME>Kennedy</LNAME>
+    <previousHash>26eea7d0-dbb1-40c8-923c-b0f6297f3f46</previousHash>
+    <RX>Steroids</RX>
+    <SSN>333-45-6999</SSN>
+    <TREAT>DrugTherapy</TREAT>
+</blockRecord>
+</BlockLedger>
+
+Consumer got unverified: 
+<blockRecord>	
+		<ABlockID>8d033e8e-435f-4af4-a3fc-d8bb12632655</ABlockID>	<ACreatingProcess>Process2</ACreatingProcess>    
+		<ASHA256String>SHA string goes here...</ASHA256String>	<ASignedSHA256>Signed SHA string goes here...</ASignedSHA256>    
+		<AVerificationProcessID>To be set later...</AVerificationProcessID>    <DIAG>AddisonsDisease</DIAG>    <DOB>1917.05.29</DOB>    
+		<FNAME>John</FNAME>    <LNAME>Kennedy</LNAME>    <RX>Steroids</RX>    <SSN>333-45-6999</SSN>    <TREAT>DrugTherapy</TREAT>
+</blockRecord>
+
+Consumer got unverified: 
+<blockRecord>    
+		<ABlockID>c2830877-905c-4a1b-aa9e-3a50fc02ecc5</ABlockID>    <ACreatingProcess>Process2</ACreatingProcess>    
+		<ASHA256String>SHA string goes here...</ASHA256String>    <ASignedSHA256>Signed SHA string goes here...</ASignedSHA256>    
+		<AVerificationProcessID>To be set later...</AVerificationProcessID>    <DIAG>SoreKnees</DIAG>    <DOB>1914.11.25</DOB>    
+		<FNAME>Joe</FNAME>    <LNAME>DiMaggio</LNAME>    <RX>Aspirin</RX>    <SSN>111-22-3333</SSN>    <TREAT>RestFromSports</TREAT>
+</blockRecord>
+
+UnverifiedBlockServer for process: 1 up, listening at port: 4930
+UnverifiedBlockServer for process: 1 up, listening at port: 4931
+BlockchainServer connected sucessfully!!!
+
+UnverifiedBlockServer for process: 1 up, listening at port: 4932
+Consumer got unverified: 
+<blockRecord>
+		<ABlockID>ee43faeb-2392-42c8-9d36-7d3176a803c3</ABlockID>    <ACreatingProcess>Process2</ACreatingProcess>    
+		<ASHA256String>SHA string goes here...</ASHA256String>    <ASignedSHA256>Signed SHA string goes here...</ASignedSHA256>    	
+		<AVerificationProcessID>To be set later...</AVerificationProcessID>    <DIAG>GreviousWound</DIAG>    <DOB>1809.02.12</DOB>    
+		<FNAME>Abraham</FNAME>    <LNAME>Lincoln</LNAME>    <RX>Whiskey</RX>    <SSN>444-45-6888</SSN>    <TREAT>Surgery</TREAT>
+</blockRecord>
+
+UnverifiedBlockServer for process: 1 up, listening at port: 4930
+UnverifiedBlockServer for process: 1 up, listening at port: 4931
+BlockchainServer connected sucessfully!!!
+
+UnverifiedBlockServer for process: 1 up, listening at port: 4932
+
+Process finished with exit code -1
+
+
+///////////////////////////////////////////////////////////////////PROCESS TWO/////////////////////////////////////////////////////////////////////////
+"C:\Program Files\Java\jdk1.8.0_201\bin\java.exe" "-javaagent:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2019.1.1\lib\idea_rt.jar=64532:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2019.1.1\bin" -Dfile.encoding=UTF-8 -classpath "C:\Program Files\Java\jdk1.8.0_201\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_201\jre\lib\deploy.jar;C:\Program Files\Java\jdk1.8.0_201\jre\lib\ext\access-bridge-64.jar;C:\Program Files\Java\jdk1.8.0_201\jre\lib\ext\cldrdata.jar;C:\Program Files\Java\jdk1.8.0_201\jre\lib\ext\dnsns.jar;C:\Program Files\Java\jdk1.8.0_201\jre\lib\ext\jaccess.jar;C:\Program Files\Java\jdk1.8.0_201\jre\lib\ext\jfxrt.jar;C:\Program Files\Java\jdk1.8.0_201\jre\lib\ext\localedata.jar;C:\Program Files\Java\jdk1.8.0_201\jre\lib\ext\nashorn.jar;C:\Program Files\Java\jdk1.8.0_201\jre\lib\ext\sunec.jar;C:\Program Files\Java\jdk1.8.0_201\jre\lib\ext\sunjce_provider.jar;C:\Program Files\Java\jdk1.8.0_201\jre\lib\ext\sunmscapi.jar;C:\Program Files\Java\jdk1.8.0_201\jre\lib\ext\sunpkcs11.jar;C:\Program Files\Java\jdk1.8.0_201\jre\lib\ext\zipfs.jar;C:\Program Files\Java\jdk1.8.0_201\jre\lib\javaws.jar;C:\Program Files\Java\jdk1.8.0_201\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_201\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_201\jre\lib\jfxswt.jar;C:\Program Files\Java\jdk1.8.0_201\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_201\jre\lib\management-agent.jar;C:\Program Files\Java\jdk1.8.0_201\jre\lib\plugin.jar;C:\Program Files\Java\jdk1.8.0_201\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_201\jre\lib\rt.jar;C:\Users\nsane\Documents\Spring '19\CSC_435 Distributed Computing\Lea's Blockchain\out\production\Lea's Blockchain" Blockchain 2
+Blockchain program running 
+Current process id in use : 2
+Starting Public Key Server input thread using 4712
+UnverifiedBlockServer for process: 2 up, listening at port: 4822
+
+BlockchainServer listening at port: 4932 process_id: 2
+
+Running the UnverifiedBlockConsumer class. 
+
+Port 4710 is currently being used 
+
+Port 4711 is currently being used 
+
+Port 4712 is currently being used 
+
+Got key: Port 4712 using process_ id 2 with Public key: MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCflLCDxDm7C2g0bE1EsJoFL/G+JP+lL+RjAf4Lnd2kQfyb1cWVIHE7zyl0J1pK78sZDtNtqg8hds3tmq+dO9g6IbA2s0rK+fbrZVfP5sS2dTExPrJbxIsbFIuEgD/l1MkuupIp/zUwKdFUg0EPrGk5wiNZyUVmNtTlUSlEbiMqJwIDAQAB
+
+In PublicKeyWorker, storePublicKeyandPID() method 
+
+ Current port being sent unverified block is: 4820
+
+ Current port being sent unverified block is: 4821
+
+ Current port being sent unverified block is: 4822
+
+Consumer got unverified: 
+<blockRecord>    
+		<ABlockID>701e9f20-bf08-46e2-b8eb-594beab7ef8a</ABlockID>    <ACreatingProcess>Process3</ACreatingProcess>    
+		<ASHA256String>SHA string goes here...</ASHA256String>    <ASignedSHA256>Signed SHA string goes here...</ASignedSHA256>    
+		<AVerificationProcessID>To be set later...</AVerificationProcessID>    <DIAG>Chickenpox</DIAG>    <DOB>1996.03.07</DOB>    
+		<FNAME>Dummy</FNAME>    <LNAME>Block</LNAME>    <RX>aspirin</RX>    <SSN>123-45-6789</SSN>    <TREAT>BedRest</TREAT>
+</blockRecord>
+
+ Current port being sent unverified block is: 4820
+
+ Current port being sent unverified block is: 4821
+
+ Current port being sent unverified block is: 4822
+
+BlockchainServer connected sucessfully!!!
+
+BlockchainServer connected sucessfully!!!
+
+Consumer got unverified: 
+<blockRecord>    
+		<ABlockID>26eea7d0-dbb1-40c8-923c-b0f6297f3f46</ABlockID>    <ACreatingProcess>Process2</ACreatingProcess>    
+		<ASHA256String>SHA string goes here...</ASHA256String>    <ASignedSHA256>Signed SHA string goes here...</ASignedSHA256>    
+		<AVerificationProcessID>To be set later...</AVerificationProcessID>    <DIAG>Arthritis</DIAG>    <DOB>1880.06.27</DOB>    
+		<FNAME>Helen</FNAME>    <LNAME>Keller</LNAME>    <RX>Aspirin</RX>    <SSN>666-45-6789</SSN>    <TREAT>WarmCloths</TREAT>
+</blockRecord>
+
+BlockchainServer connected sucessfully!!!
+
+Consumer got unverified: 
+<blockRecord>    
+		<ABlockID>701e9f20-bf08-46e2-b8eb-594beab7ef8a</ABlockID>    <ACreatingProcess>Process3</ACreatingProcess>    
+		<ASHA256String>SHA string goes here...</ASHA256String>    <ASignedSHA256>Signed SHA string goes here...</ASignedSHA256>    
+		<AVerificationProcessID>To be set later...</AVerificationProcessID>    <DIAG>Chickenpox</DIAG>    <DOB>1996.03.07</DOB>    
+		<FNAME>Dummy</FNAME>    <LNAME>Block</LNAME>    <RX>aspirin</RX>    <SSN>123-45-6789</SSN>    <TREAT>BedRest</TREAT>
+</blockRecord>
+
+Consumer got unverified: 
+<blockRecord>    
+		<ABlockID>8d033e8e-435f-4af4-a3fc-d8bb12632655</ABlockID>    <ACreatingProcess>Process2</ACreatingProcess>    
+		<ASHA256String>SHA string goes here...</ASHA256String>    <ASignedSHA256>Signed SHA string goes here...</ASignedSHA256>    
+		<AVerificationProcessID>To be set later...</AVerificationProcessID>    <DIAG>AddisonsDisease</DIAG>    <DOB>1917.05.29</DOB>    
+		<FNAME>John</FNAME>    <LNAME>Kennedy</LNAME>    <RX>Steroids</RX>    <SSN>333-45-6999</SSN>    <TREAT>DrugTherapy</TREAT>
+</blockRecord>
+
+Consumer got unverified: 
+<blockRecord>    
+		<ABlockID>c2830877-905c-4a1b-aa9e-3a50fc02ecc5</ABlockID>    <ACreatingProcess>Process2</ACreatingProcess>    
+		<ASHA256String>SHA string goes here...</ASHA256String>    <ASignedSHA256>Signed SHA string goes here...</ASignedSHA256>    
+		<AVerificationProcessID>To be set later...</AVerificationProcessID>    <DIAG>SoreKnees</DIAG>    <DOB>1914.11.25</DOB>    
+		<FNAME>Joe</FNAME>    <LNAME>DiMaggio</LNAME>    <RX>Aspirin</RX>    <SSN>111-22-3333</SSN>    <TREAT>RestFromSports</TREAT>
+</blockRecord>
+
+BlockchainServer connected sucessfully!!!
+
+BlockchainServer connected sucessfully!!!
+
+Consumer got unverified: 
+<blockRecord>    
+		<ABlockID>ee43faeb-2392-42c8-9d36-7d3176a803c3</ABlockID>    <ACreatingProcess>Process2</ACreatingProcess>    
+		<ASHA256String>SHA string goes here...</ASHA256String>    <ASignedSHA256>Signed SHA string goes here...</ASignedSHA256>    
+		<AVerificationProcessID>To be set later...</AVerificationProcessID>    <DIAG>GreviousWound</DIAG>    <DOB>1809.02.12</DOB>    
+		<FNAME>Abraham</FNAME>    <LNAME>Lincoln</LNAME>    <RX>Whiskey</RX>    <SSN>444-45-6888</SSN>    <TREAT>Surgery</TREAT>
+</blockRecord>
+
+
+Process finished with exit code -1
